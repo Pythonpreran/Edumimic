@@ -48,15 +48,17 @@ In modern education, student engagement is a critical factor, yet teachers often
 Follow these steps to set up and run EduMimic locally:
 
 ### 1. Clone the repository
-git clone <your-repo-url>
-cd <repo-name>
-
+```bash
+git clone <https://github.com/Pythonpreran/Edumimic>
+cd <Edumimic>
+```
 text
 
 ### 2. Install dependencies
+'''bash
 npm install
 
-text
+```
 
 ### 3. Configure API Keys
 Create a file at `src/config/api.ts` and add your API keys:
@@ -64,13 +66,12 @@ Create a file at `src/config/api.ts` and add your API keys:
 export const OPENAI_API_KEY = 'your-openai-key';
 export const GOOGLE_GEMINI_API_KEY = 'your-google-gemini-key';
 
-text
 Make sure to replace the placeholders with your actual keys.
 
 ### 4. Run the development server
+```bash
 npm run dev
-
-text
+```
 Open your browser at http://localhost:5173 to access the simulator.
 
 ---
