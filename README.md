@@ -55,7 +55,7 @@ cd <Edumimic>
 text
 
 ### 2. Install dependencies
-'''bash
+```bash
 npm install
 
 ```
